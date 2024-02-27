@@ -1,7 +1,215 @@
-.container-flud{
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    border: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+#Home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-color: rgba(255, 255, 255, 0.5); 
+    background-blend-mode: overlay; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:-2rem ;
+}
+nav{
+    padding: 1rem 1rem;
+}
+.logo{
+    width: 2.2rem;
+    margin-left: 1rem;
+}
+.buy{
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-left: 90%;
+}
+.icons{
+    font-size:4rem;
+}
+
+.nav-links, .nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    
+}
+.nav-links li{
+    padding: 1rem 1rem;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-size: .7rem;
+    font-weight: bold;
+    font-family: anta;
+}
+.heading{
+    font-size: 3rem;
+    font-family: shantell sans;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 2.5rem;
+}
+.sub-heading{
+    font-size: .7rem;
+    font-family:fira sans ;
+    margin-left: 38%;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+.button{
+    width: 7rem;
+    margin-left: 43%;
+}
+
+.market{
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: .3rem .3rem;
+
+}
+.market a{
+    color: black;
+    text-decoration: none;
+    font-size: .8rem;
+    font-family: shantell sans;
+    font-weight: 400;
+    margin: .2rem .2rem;
+}
+#About{
+    padding: 4rem 2rem;
+    width: 100%;
+    height: 100vh;
+    background-color:#F0FFFF;
+}
+.sub-hero{
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+
 }
+.about{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: anta;
+    color: black;
+}
+.sub-about{
+    font-size: 1.6rem;
+    font-family: shantell sans;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+.content{
+    font-size: 12px;
+    font-family: roboto;
+    color: black;
+    
+}
+.sub-hero-img{
+
+    width: 60%;
+    margin-left: 5%;
+
+}
+.about-image{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        position: fixed;
+        width: 450px;
+        height: 100vh;
+    }
+    #Home{
+        background-position: top;
+        background-size: cover;
+        top: 0;
+        padding-top: 1%;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    nav{
+        padding: .5rem .5rem;
+    }
+    .logo{
+        width: 3rem;
+      
+    }
+    .buy{
+        padding: .5rem;
+        border-radius: 1rem;
+        margin-left: 90%;
+    }
+    .icons{
+       font-size: 3rem;
+}
+.nav-links{
+    display: none;
+    overflow: hidden;
+}
+.icon{
+    width: 2.5rem;
+}
+.nav-icons{
+    margin-right: 6rem;
+}
+.nav-icons li{
+    padding: 0 1rem;
+}
+.heading{
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-right: 4rem;
+}
+.sub-heading{
+    width: 300px;
+    font-size: .6rem;
+    margin-right: 4rem;
+}
+}
+
+
