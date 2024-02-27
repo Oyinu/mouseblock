@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
@@ -15,7 +16,7 @@
     height: 100vh;
     width: 100%;
     background-image: url(background.jpg);
-    background-color: rgba(255, 255, 255, 0.5); 
+    background-color: #ffffff80; 
     background-blend-mode: overlay; 
     background-position: center;
     background-size: cover;
@@ -24,14 +25,15 @@
 .hero{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
     margin-top:-2rem ;
 }
 nav{
     padding: 1rem 1rem;
 }
 .logo{
-    width: 2.2rem;
+   padding: 1rem 1rem;
+    width: 6rem;
     margin-left: 1rem;
 }
 .buy{
@@ -61,21 +63,21 @@ nav{
 .nav-links li a{
     text-decoration: none;
     color: black;
-    font-size: .7rem;
+    font-size: 1.4rem;
     font-weight: bold;
     font-family: anta;
 }
 .heading{
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: shantell sans;
     font-weight: bold;
     margin-left: 30%;
-    margin-top: 2.5rem;
+    margin-top: 7rem;
 }
 .sub-heading{
-    font-size: .7rem;
+    font-size: 1.2rem;
     font-family:fira sans ;
-    margin-left: 38%;
+    margin-left: 35%;
     margin-top: .5rem;
     font-weight: bold;
 }
@@ -88,13 +90,13 @@ nav{
     border-radius: 1rem;
     background-color: white;
     border: 1px solid black;
-    padding: .3rem .3rem;
-
+    padding: .5rem .5rem;
+    width: 150px;
 }
 .market a{
     color: black;
     text-decoration: none;
-    font-size: .8rem;
+    font-size: 1rem;
     font-family: shantell sans;
     font-weight: 400;
     margin: .2rem .2rem;
@@ -102,7 +104,7 @@ nav{
 #About{
     padding: 4rem 2rem;
     width: 100%;
-    height: 100vh;
+ 
     background-color:#F0FFFF;
 }
 .sub-hero{
@@ -112,23 +114,23 @@ nav{
     justify-content: center;
 
 }
+
 .about{
-    font-size: 1rem;
-    text-transform: capitalize;
-    font-family: anta;
-    color: black;
-}
-.sub-about{
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-family: shantell sans;
     font-weight: bold;
     text-transform: capitalize;
     color: black;
+    margin-top: 3rem;
+    padding: 0 3rem;
 }
 .content{
-    font-size: 12px;
-    font-family: roboto;
+    margin-top: 3rem;
+    font-size: 20px;
+    font-family: Merienda;
     color: black;
+    line-height: 29px;
+    padding: 0 3rem;
     
 }
 .sub-hero-img{
@@ -144,9 +146,133 @@ nav{
     margin-left: 30%;
     width: 70%;
 }
+#Roadmap{
+    width: 100%;
+    background-color: #FFFAF0; 
+}
+.roadmap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.roadmap-image{
+    width: 60%;
+}
+.roadmap-content{
+    margin-top: 3rem;
+    font-size: 14px;
+    font-family: Merienda;
+    color: black;
+    line-height: 29px;
+    padding: 0 3rem;
+    
+}
+strong{
+    font-size: 1.3rem;
+}
+.roadmap-heading{
+    font-size: 3rem;
+    font-family: shantell sans;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 3rem;
+    padding: 0 3rem;
+}
+#Team{
+    background-color: #F0FFFF;
+    width: 100%;
+}
+.team-heading{
+    font-size: 2rem;
+    font-family: shantell sans;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 3rem;
+    padding: 2rem 3rem;
+    margin-left: 43%;
+}
+.sub-team-heading{
+    font-size: 2.8rem;
+    font-family: shantell sans;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 1rem;
+    padding: 0 3rem;
+    margin-left: 20%;
+}
+.profiles, .profiles2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 7rem;
+    margin: 1rem auto;
+    
+}
+.founder, .designer, .cm, .developer{
+    padding: 1rem 2rem;
+    width: 400px;
+ 
+}
+.profile-details{
+    margin-left: 10%;
+}
+.profile-image{
+    clip-path: circle();
+}
+.about-profile{
+    font-size: 14px;
+    font-family: Merienda;
+}
 
+.names{
+    margin-left: 6rem;
+}
 
+.names2{
+    margin-left: 5rem;
+}
 
+.profile-icon{
+    margin-left: 40%;
+    margin-bottom: 2rem;
+}
+.names1{
+    margin-left: 15%;
+   
+}
+footer{
+    background-color: #FFFAF0;
+    width: 100%;
+    height: 50vh;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+    font-family: shantell sans;
+}
+.footer-icons{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-left: 7%;
+}
+.footer-icon{
+    padding: 1rem 0;
+    margin: 1rem .5rem;
+    width: 2rem;
+    
+}
+.copyrights{
+    font-size: 1rem;
+    margin-left: 47%;
+}
 
 
 
@@ -155,16 +281,19 @@ nav{
 
 
 @media screen and (max-width: 768px) {
+   
     body{
         position: absolute;
-        width: 450px;
+        max-width:450px;
         height: 100vh;
     }
     #Home{
         background-position: top;
         background-size: cover;
+
         top: 0;
         padding-top: 1%;
+        height: 50vh;
     }
     .hero{
         display: flex;
@@ -176,7 +305,7 @@ nav{
         padding: .5rem .5rem;
     }
     .logo{
-        width: 3rem;
+        width: 6rem;
       
     }
     .buy{
@@ -185,7 +314,7 @@ nav{
         margin-left: 90%;
     }
     .icons{
-       font-size: 3rem;
+       font-size: 2rem;
 }
 .nav-links{
     display: none;
@@ -202,14 +331,134 @@ nav{
 }
 .heading{
     font-size: 2rem;
-    margin-top: 10rem;
-    margin-right: 4rem;
 }
 .sub-heading{
-    width: 300px;
     font-size: .6rem;
-    margin-right: 4rem;
 }
+.market{
+    width: 140px;
+}
+.about{
+    font-size: 1.5rem;
+}
+.content{
+    font-size: 8px;
+    line-height: 20px;
+}
+.about-image{
+    padding: 0 1rem;
+    width: 120%;
+}
+.sub-hero-img{
+
+    width: 60%;
+    margin-left: 3%;
+
+}
+
+.roadmap-heading{
+    font-size: 1.5rem;
+}
+.roadmap-content{
+    font-size: 8px;
+    line-height: 20px;
+    padding: 2px 0;
+}
+strong{
+    font-size: 1rem;
+}
+
+.roadmap-image{
+    width: 70%;
+    margin-left: 2rem;
+    margin: 0 1rem;
+}
+.team-heading{
+    font-size: .7rem;
+    margin-left: 9rem;
+}
+.sub-team-heading{
+    font-size: .8rem;
+    margin-left: 3rem;
+}
+.profiles, .profiles2{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 7rem;
+    margin: 1rem auto;
+    
+}
+.founder, .designer, .cm, .developer{
+    padding: 1rem 2rem;
+    width: 400px;
+ 
+}
+.profile-details{
+    margin-left: -50px;
+}
+.profile-image{
+    clip-path: circle();
+}
+.about-profile{
+    font-size: 10px;
+    font-family: Merienda;
+}
+
+.names{
+    margin-left: 6rem;
+}
+
+.names2{
+    margin-left: 5rem;
+}
+
+.profile-icon{
+    margin-left: 33%;
+    margin-bottom: 2rem;
+}
+.names1{
+    margin-left: 15%;
+   
+}
+
+.footer-icons{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-left: 7%;
+}
+.footer-icon{
+    padding: 1rem 0;
+    margin: 1rem .5rem;
+    width: 2rem;
+    
+}
+.copyrights{
+    font-size: 1rem;
+    margin-left: 37%;
+}
+
+.last-text{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
