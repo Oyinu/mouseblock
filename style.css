@@ -156,7 +156,7 @@ nav{
 
 @media screen and (max-width: 768px) {
     body{
-        position: fixed;
+        position: absolute;
         width: 450px;
         height: 100vh;
     }
