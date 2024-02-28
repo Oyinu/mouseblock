@@ -54,11 +54,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 3rem;
+
     
 }
 .nav-links li{
     padding: 1rem 1rem;
+    margin-left: 2rem;
 }
 .nav-links li a{
     text-decoration: none;
@@ -66,6 +68,15 @@ nav{
     font-size: 1.4rem;
     font-weight: bold;
     font-family: anta;
+}
+.icon{
+    width: 2.2rem;
+}
+.nav-icons{
+    margin-left: 10rem;
+}
+.nav-icons li{
+    padding: 0 1rem;
 }
 .heading{
     font-size: 5rem;
